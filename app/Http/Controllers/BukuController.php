@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Hash;
 
 class BukuController extends Controller
 {
-    //index
+    //index buku
     public function index()
     {
         $buku = Buku::paginate(10);
